@@ -205,6 +205,24 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ninesky.BLL\Ninesky.BLL.csproj">
+      <Project>{4785ba4c-f41c-47f3-8842-c11a20be8e49}</Project>
+      <Name>Ninesky.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ninesky.Common\Ninesky.Common.csproj">
+      <Project>{cb4c84f0-4162-439f-885f-caa7e9555e4b}</Project>
+      <Name>Ninesky.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ninesky.IBLL\Ninesky.IBLL.csproj">
+      <Project>{20c849fa-b95c-4ba1-9cd2-47a2197d9582}</Project>
+      <Name>Ninesky.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ninesky.Models\Ninesky.Models.csproj">
+      <Project>{648aa6cd-0c5c-4ccc-9513-f089de1c5d63}</Project>
+      <Name>Ninesky.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

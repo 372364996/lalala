@@ -1,0 +1,22 @@
+@media (max-width: 420px) {
+    .tab-h2 {
+        font-size: 18px;
+    }
+
+    .bs-example {
+        height: 140px;
+    }
+}
+@media (min-width: 425px) {
+
+    .carousel-inner {
+        /*height: 500px;*/
+    }
+}
+.tab-h2 {
+    text-align: center;
+}
+
+.navbar-default {
+    margin-bottom: 0px;
+}
